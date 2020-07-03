@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-// GET
+// GET all quotes data from db, then render all objects, iterate through that, and then render each object.
 
     function renderOneQuote(quote){
         const quotesUl = document.querySelector('#quote-list')
