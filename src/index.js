@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-// POST
+// GET
 
     function renderOneQuote(quote){
         const quotesUl = document.querySelector('#quote-list')
@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(allQuotesDataObjects => renderAllQuotes(allQuotesDataObjects))
     }
     fetchAllQuotesData("http://localhost:3000/quotes?_embed=likes")
+
+// 
 
 
 
