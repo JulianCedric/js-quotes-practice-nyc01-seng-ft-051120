@@ -32,4 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     fetchAllQuotesData("http://localhost:3000/quotes?_embed=likes")
 
+
+
 })
+
+// 
